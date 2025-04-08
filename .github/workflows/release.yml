@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 env:
   EMSCRIPTEN_VERSION: 3.1.28
 
