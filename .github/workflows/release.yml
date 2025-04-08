@@ -23,8 +23,8 @@ jobs:
         run: |
           source emsdk/emsdk_env.sh
           mkdir build && cd build
-          cmake -DNCNN_VULKAN=OFF -DNCNN_WEBASSEMBLY=ON -DNCNN_THREADS=OFF -DNCNN_OPENMP=OFF -DWASM_FEATURE=basic ..
-          make -j4
+          emcmake cmake -DNCNN_VULKAN=OFF -DNCNN_WEBASSEMBLY=ON -DNCNN_THREADS=OFF -DNCNN_OPENMP=OFF ..
+          emmake make -j4
 
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
