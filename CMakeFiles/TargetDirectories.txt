@@ -1,2 +1,0 @@
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/edit_cache.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/rebuild_cache.dir
