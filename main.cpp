@@ -11,6 +11,7 @@
 // // 保留原有绑定...
 
 #include <net.h>
+#include <benchmark.h>
 
 ncnn::Net net;
 bool initialized = false;
