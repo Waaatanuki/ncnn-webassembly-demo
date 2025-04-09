@@ -25,5 +25,5 @@ if(${WASM_FEATURE} MATCHES "threads")
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fopenmp -pthread -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=4")
 endif()
 
-add_executable(nanodet-${WASM_FEATURE} nanodet.cpp nanodetncnn.cpp)
+add_executable(nanodet-${WASM_FEATURE} main.cpp)
 target_link_libraries(nanodet-${WASM_FEATURE} ncnn)
