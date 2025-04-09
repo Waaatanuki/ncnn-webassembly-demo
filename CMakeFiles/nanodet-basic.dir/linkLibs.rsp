@@ -1,1 +1,1 @@
- "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn-20230223-webassembly/basic/lib/libncnn.a" 
+ "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn-20230223-webassembly/basic/lib/libncnn.a" -lpthread 
