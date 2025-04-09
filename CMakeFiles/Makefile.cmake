@@ -55,5 +55,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ncnn-simd-threads.dir/DependInfo.cmake"
+  "CMakeFiles/nanodet-simd-threads.dir/DependInfo.cmake"
   )
