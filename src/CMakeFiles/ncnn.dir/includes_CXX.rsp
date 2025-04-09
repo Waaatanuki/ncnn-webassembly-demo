@@ -1,0 +1,1 @@
+-I"/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/src/layer/x86" -I"/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/src" -I"/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src" -I"/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/src/layer"
