@@ -164,6 +164,7 @@ extern "C" {
     
     // 保留原有的nanodet_ncnn函数...
 }
+}
 
 #else // __EMSCRIPTEN_PTHREADS__
 
@@ -187,5 +188,5 @@ extern "C" {
     
     // 保留原有的nanodet_ncnn函数...
 }
-
+}
 #endif // __EMSCRIPTEN_PTHREADS__
