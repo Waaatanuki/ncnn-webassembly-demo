@@ -24,14 +24,24 @@ jobs:
 
       - name: ncnn
         run: |
-          wget -q https://github.com/Tencent/ncnn/releases/download/20230223/ncnn-20230223-webassembly.zip
-          unzip -q ncnn-20230223-webassembly.zip
+          # 替换原来的wget下载为git clone获取完整源码
+          git clone https://github.com/Tencent/ncnn.git
+          cd ncnn
+          git checkout 20230223  # 保持与您原本使用的版本一致
+          git submodule update --init  # 重要！初始化子模块（包含glslang等依赖）
 
       - name: build
         run: |
           source emsdk/emsdk_env.sh
           mkdir build && cd build
-          cmake -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DWASM_FEATURE=basic ..
+          # 修正CMake路径指向ncnn目录
+          cmake -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake \
+                -DNCNN_OPENMP=OFF \
+                -DNCNN_THREADS=ON \
+                -DNCNN_RUNTIME_CPU=OFF \
+                -DNCNN_SSE2=OFF \
+                -DNCNN_AVX2=OFF \
+                ../ncnn
           make -j4
           cmake -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DWASM_FEATURE=simd ..
           make -j4
