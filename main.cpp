@@ -31,10 +31,12 @@ extern "C" {
     // 示例推理函数
     double inference(const float* input_data, int width, int height) {
         double start_time = ncnn::get_current_time();
-        // ncnn::Extractor ex = net.create_extractor();
-        // double elasped = ncnn::get_current_time() - start_time;
+        net.load_param("renderer.ncnn.param");
+        net.load_model("renderer.ncnn.bin");
+        ncnn::Extractor ex = net.create_extractor();
+        double elasped = ncnn::get_current_time() - start_time;
         
-        return start_time;
+        return elasped;
     }
 }
 
