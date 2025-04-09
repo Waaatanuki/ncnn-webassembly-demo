@@ -154,16 +154,16 @@ void nanodet_ncnn(unsigned char* _rgba_data, int _w, int _h)
         finish_lock.unlock();
     }
 
-extern "C" {
-    // 修改带参数的hello函数
+
+
     const char* hello(const char* name) {
         static char buffer[128];
         snprintf(buffer, sizeof(buffer), "hello %s", name);
         return buffer;
     }
     
-    // 保留原有的nanodet_ncnn函数...
-}
+
+
 }
 
 #else // __EMSCRIPTEN_PTHREADS__
@@ -178,15 +178,15 @@ void nanodet_ncnn(unsigned char* rgba_data, int w, int h)
     }
 
 
-extern "C" {
-    // 修改另一个分支的hello函数
+
+
     const char* hello(const char* name) {
         static char buffer[128];
         snprintf(buffer, sizeof(buffer), "hello %s", name);
         return buffer;
     }
     
-    // 保留原有的nanodet_ncnn函数...
-}
+
+
 }
 #endif // __EMSCRIPTEN_PTHREADS__
