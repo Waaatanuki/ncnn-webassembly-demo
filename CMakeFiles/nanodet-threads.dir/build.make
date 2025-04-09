@@ -73,6 +73,7 @@ CMakeFiles/nanodet-threads.dir/codegen:
 .PHONY : CMakeFiles/nanodet-threads.dir/codegen
 
 CMakeFiles/nanodet-threads.dir/main.cpp.o: CMakeFiles/nanodet-threads.dir/flags.make
+CMakeFiles/nanodet-threads.dir/main.cpp.o: CMakeFiles/nanodet-threads.dir/includes_CXX.rsp
 CMakeFiles/nanodet-threads.dir/main.cpp.o: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/main.cpp
 CMakeFiles/nanodet-threads.dir/main.cpp.o: CMakeFiles/nanodet-threads.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nanodet-threads.dir/main.cpp.o"
@@ -95,6 +96,8 @@ nanodet__threads_EXTERNAL_OBJECTS =
 
 nanodet-threads.js: CMakeFiles/nanodet-threads.dir/main.cpp.o
 nanodet-threads.js: CMakeFiles/nanodet-threads.dir/build.make
+nanodet-threads.js: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn-20230223-webassembly/threads/lib/libncnn.a
+nanodet-threads.js: CMakeFiles/nanodet-threads.dir/linkLibs.rsp
 nanodet-threads.js: CMakeFiles/nanodet-threads.dir/objects1.rsp
 nanodet-threads.js: CMakeFiles/nanodet-threads.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nanodet-threads.js"

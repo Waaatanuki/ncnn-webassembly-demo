@@ -73,6 +73,7 @@ CMakeFiles/nanodet-basic.dir/codegen:
 .PHONY : CMakeFiles/nanodet-basic.dir/codegen
 
 CMakeFiles/nanodet-basic.dir/main.cpp.o: CMakeFiles/nanodet-basic.dir/flags.make
+CMakeFiles/nanodet-basic.dir/main.cpp.o: CMakeFiles/nanodet-basic.dir/includes_CXX.rsp
 CMakeFiles/nanodet-basic.dir/main.cpp.o: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/main.cpp
 CMakeFiles/nanodet-basic.dir/main.cpp.o: CMakeFiles/nanodet-basic.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nanodet-basic.dir/main.cpp.o"
@@ -95,6 +96,8 @@ nanodet__basic_EXTERNAL_OBJECTS =
 
 nanodet-basic.js: CMakeFiles/nanodet-basic.dir/main.cpp.o
 nanodet-basic.js: CMakeFiles/nanodet-basic.dir/build.make
+nanodet-basic.js: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn-20230223-webassembly/basic/lib/libncnn.a
+nanodet-basic.js: CMakeFiles/nanodet-basic.dir/linkLibs.rsp
 nanodet-basic.js: CMakeFiles/nanodet-basic.dir/objects1.rsp
 nanodet-basic.js: CMakeFiles/nanodet-basic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nanodet-basic.js"

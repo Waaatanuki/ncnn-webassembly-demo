@@ -73,6 +73,7 @@ CMakeFiles/nanodet-simd.dir/codegen:
 .PHONY : CMakeFiles/nanodet-simd.dir/codegen
 
 CMakeFiles/nanodet-simd.dir/main.cpp.o: CMakeFiles/nanodet-simd.dir/flags.make
+CMakeFiles/nanodet-simd.dir/main.cpp.o: CMakeFiles/nanodet-simd.dir/includes_CXX.rsp
 CMakeFiles/nanodet-simd.dir/main.cpp.o: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/main.cpp
 CMakeFiles/nanodet-simd.dir/main.cpp.o: CMakeFiles/nanodet-simd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nanodet-simd.dir/main.cpp.o"
@@ -95,6 +96,8 @@ nanodet__simd_EXTERNAL_OBJECTS =
 
 nanodet-simd.js: CMakeFiles/nanodet-simd.dir/main.cpp.o
 nanodet-simd.js: CMakeFiles/nanodet-simd.dir/build.make
+nanodet-simd.js: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn-20230223-webassembly/simd/lib/libncnn.a
+nanodet-simd.js: CMakeFiles/nanodet-simd.dir/linkLibs.rsp
 nanodet-simd.js: CMakeFiles/nanodet-simd.dir/objects1.rsp
 nanodet-simd.js: CMakeFiles/nanodet-simd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nanodet-simd.js"

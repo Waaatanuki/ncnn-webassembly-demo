@@ -73,6 +73,7 @@ CMakeFiles/nanodet-simd-threads.dir/codegen:
 .PHONY : CMakeFiles/nanodet-simd-threads.dir/codegen
 
 CMakeFiles/nanodet-simd-threads.dir/main.cpp.o: CMakeFiles/nanodet-simd-threads.dir/flags.make
+CMakeFiles/nanodet-simd-threads.dir/main.cpp.o: CMakeFiles/nanodet-simd-threads.dir/includes_CXX.rsp
 CMakeFiles/nanodet-simd-threads.dir/main.cpp.o: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/main.cpp
 CMakeFiles/nanodet-simd-threads.dir/main.cpp.o: CMakeFiles/nanodet-simd-threads.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nanodet-simd-threads.dir/main.cpp.o"
@@ -95,6 +96,8 @@ nanodet__simd__threads_EXTERNAL_OBJECTS =
 
 nanodet-simd-threads.js: CMakeFiles/nanodet-simd-threads.dir/main.cpp.o
 nanodet-simd-threads.js: CMakeFiles/nanodet-simd-threads.dir/build.make
+nanodet-simd-threads.js: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn-20230223-webassembly/simd-threads/lib/libncnn.a
+nanodet-simd-threads.js: CMakeFiles/nanodet-simd-threads.dir/linkLibs.rsp
 nanodet-simd-threads.js: CMakeFiles/nanodet-simd-threads.dir/objects1.rsp
 nanodet-simd-threads.js: CMakeFiles/nanodet-simd-threads.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nanodet-simd-threads.js"
