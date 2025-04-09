@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/nanodet-simd.dir/includes_CXX.rsp
 
-CXX_FLAGS =  -s FORCE_FILESYSTEM=1 -s INITIAL_MEMORY=256MB -s EXIT_RUNTIME=1 -sEXPORTED_FUNCTIONS=['_nanodet_ncnn','_malloc','_free'] --preload-file /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/assets@. -O3 -DNDEBUG -fPIE -fno-rtti
+CXX_FLAGS =  -s FORCE_FILESYSTEM=1 -s INITIAL_MEMORY=256MB -s EXIT_RUNTIME=1 -sEXPORTED_FUNCTIONS=['_nanodet_ncnn','_hello','_malloc','_free'] --preload-file /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/assets@. -O3 -DNDEBUG -fPIE -fno-rtti
 
