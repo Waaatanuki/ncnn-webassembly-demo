@@ -10,7 +10,7 @@
 
 // // 保留原有绑定...
 
-#include "net.h"
+#include "nanodet.h"
 
 ncnn::Net net;
 bool initialized = false;
