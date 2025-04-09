@@ -26,4 +26,4 @@ if(${WASM_FEATURE} MATCHES "threads")
 endif()
 
 add_executable(nanodet-${WASM_FEATURE} nanodet.cpp nanodetncnn.cpp)
-target_link_libraries(ncnn)
+target_link_libraries(nanodet-${WASM_FEATURE} ncnn)
