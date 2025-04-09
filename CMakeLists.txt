@@ -1,8 +1,25 @@
+project(ncnn-webassembly-nanodet)
+
 cmake_minimum_required(VERSION 3.10)
-project(MyWebASMProject)
 
-add_subdirectory(ncnn)
+set(CMAKE_BUILD_TYPE release)
 
-# 这里添加您自己的可执行文件构建配置
-add_executable(webdemo main.cpp)
-target_link_libraries(webdemo ncnn)
+if(NOT WASM_FEATURE)
+    message(FATAL_ERROR "You must pass cmake option -DWASM_FEATURE and possible values are basic, simd, threads and simd-threads")
+endif()
+
+set(ncnn_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ncnn-20230223-webassembly/${WASM_FEATURE}/lib/cmake/ncnn")
+find_package(ncnn REQUIRED)
+
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -s FORCE_FILESYSTEM=1 -s INITIAL_MEMORY=256MB -s EXIT_RUNTIME=1")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -s FORCE_FILESYSTEM=1 -s INITIAL_MEMORY=256MB -s EXIT_RUNTIME=1")
+set(CMAKE_EXECUTBLE_LINKER_FLAGS "${CMAKE_EXECUTBLE_LINKER_FLAGS} -s FORCE_FILESYSTEM=1 -s INITIAL_MEMORY=256MB -s EXIT_RUNTIME=1")
+
+if(${WASM_FEATURE} MATCHES "threads")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp -pthread -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=4")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -pthread -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=4")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fopenmp -pthread -s USE_PTHREADS=1 -s PTHREAD_POOL_SIZE=4")
+endif()
+
+add_executable(nanodet-${WASM_FEATURE} main.cpp)
+target_link_libraries(nanodet-${WASM_FEATURE} ncnn)
