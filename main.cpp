@@ -1,4 +1,4 @@
-#include <ncnn/net.h>
+#include <net.h>
 #include <emscripten/bind.h>
 
 ncnn::Net net;
