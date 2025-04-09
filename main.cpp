@@ -1,6 +1,6 @@
 extern "C" {
     // 新增Hello World函数
-    const char* hello_world() {
+    const char* hello() {
         return "hello from webassembly!";
     }
     
@@ -9,12 +9,6 @@ extern "C" {
 }
 
 // 保留原有绑定...
-EMSCRIPTEN_BINDINGS(ncnn_module) {
-    emscripten::function("helloWorld", &hello_world,
-        emscripten::return_value_policy::reference);
-    // 保留原有绑定...
-}
-
 
 // #include <net.h>
 // #include <emscripten/bind.h>
