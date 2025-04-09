@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.8.0-1021-azure")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake")
+include("/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake")
 
 set(CMAKE_SYSTEM "Emscripten-1")
 set(CMAKE_SYSTEM_NAME "Emscripten")

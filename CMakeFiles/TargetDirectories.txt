@@ -1,14 +1,3 @@
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles/edit_cache.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles/rebuild_cache.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles/list_install_components.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles/install.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles/install/local.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles/install/strip.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/ncnn-generate-spirv.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/ncnn.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/edit_cache.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/rebuild_cache.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/list_install_components.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/install.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/install/local.dir
-/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/CMakeFiles/install/strip.dir
+/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/ncnn-simd-threads.dir
+/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/edit_cache.dir
+/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/rebuild_cache.dir

@@ -54,113 +54,61 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn
+CMAKE_SOURCE_DIR = /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build
+CMAKE_BINARY_DIR = /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: src/all
+all: CMakeFiles/ncnn-simd-threads.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: src/codegen
+codegen: CMakeFiles/ncnn-simd-threads.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: src/preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: src/clean
+clean: CMakeFiles/ncnn-simd-threads.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src
-
-# Recursive "all" directory target.
-src/all: src/CMakeFiles/ncnn.dir/all
-.PHONY : src/all
-
-# Recursive "codegen" directory target.
-src/codegen: src/CMakeFiles/ncnn.dir/codegen
-.PHONY : src/codegen
-
-# Recursive "preinstall" directory target.
-src/preinstall:
-.PHONY : src/preinstall
-
-# Recursive "clean" directory target.
-src/clean: src/CMakeFiles/ncnn-generate-spirv.dir/clean
-src/clean: src/CMakeFiles/ncnn.dir/clean
-.PHONY : src/clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/ncnn-generate-spirv.dir
+# Target rules for target CMakeFiles/ncnn-simd-threads.dir
 
 # All Build rule for target.
-src/CMakeFiles/ncnn-generate-spirv.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn-generate-spirv.dir/build.make src/CMakeFiles/ncnn-generate-spirv.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn-generate-spirv.dir/build.make src/CMakeFiles/ncnn-generate-spirv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles --progress-num= "Built target ncnn-generate-spirv"
-.PHONY : src/CMakeFiles/ncnn-generate-spirv.dir/all
+CMakeFiles/ncnn-simd-threads.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncnn-simd-threads.dir/build.make CMakeFiles/ncnn-simd-threads.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncnn-simd-threads.dir/build.make CMakeFiles/ncnn-simd-threads.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=1,2 "Built target ncnn-simd-threads"
+.PHONY : CMakeFiles/ncnn-simd-threads.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/ncnn-generate-spirv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ncnn-generate-spirv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/ncnn-generate-spirv.dir/rule
+CMakeFiles/ncnn-simd-threads.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ncnn-simd-threads.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles 0
+.PHONY : CMakeFiles/ncnn-simd-threads.dir/rule
 
 # Convenience name for target.
-ncnn-generate-spirv: src/CMakeFiles/ncnn-generate-spirv.dir/rule
-.PHONY : ncnn-generate-spirv
+ncnn-simd-threads: CMakeFiles/ncnn-simd-threads.dir/rule
+.PHONY : ncnn-simd-threads
 
 # codegen rule for target.
-src/CMakeFiles/ncnn-generate-spirv.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn-generate-spirv.dir/build.make src/CMakeFiles/ncnn-generate-spirv.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles --progress-num= "Finished codegen for target ncnn-generate-spirv"
-.PHONY : src/CMakeFiles/ncnn-generate-spirv.dir/codegen
+CMakeFiles/ncnn-simd-threads.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncnn-simd-threads.dir/build.make CMakeFiles/ncnn-simd-threads.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ncnn-simd-threads"
+.PHONY : CMakeFiles/ncnn-simd-threads.dir/codegen
 
 # clean rule for target.
-src/CMakeFiles/ncnn-generate-spirv.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn-generate-spirv.dir/build.make src/CMakeFiles/ncnn-generate-spirv.dir/clean
-.PHONY : src/CMakeFiles/ncnn-generate-spirv.dir/clean
-
-#=============================================================================
-# Target rules for target src/CMakeFiles/ncnn.dir
-
-# All Build rule for target.
-src/CMakeFiles/ncnn.dir/all: src/CMakeFiles/ncnn-generate-spirv.dir/all
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target ncnn"
-.PHONY : src/CMakeFiles/ncnn.dir/all
-
-# Build rule for subdir invocation for target.
-src/CMakeFiles/ncnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles 100
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ncnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/ncnn.dir/rule
-
-# Convenience name for target.
-ncnn: src/CMakeFiles/ncnn.dir/rule
-.PHONY : ncnn
-
-# codegen rule for target.
-src/CMakeFiles/ncnn.dir/codegen: src/CMakeFiles/ncnn-generate-spirv.dir/all
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target ncnn"
-.PHONY : src/CMakeFiles/ncnn.dir/codegen
-
-# clean rule for target.
-src/CMakeFiles/ncnn.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ncnn.dir/build.make src/CMakeFiles/ncnn.dir/clean
-.PHONY : src/CMakeFiles/ncnn.dir/clean
+CMakeFiles/ncnn-simd-threads.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncnn-simd-threads.dir/build.make CMakeFiles/ncnn-simd-threads.dir/clean
+.PHONY : CMakeFiles/ncnn-simd-threads.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

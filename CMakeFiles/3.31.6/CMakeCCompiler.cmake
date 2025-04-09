@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/emcc")
+set(CMAKE_C_COMPILER "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_COMPILER_VERSION "16.0.0")
@@ -22,10 +22,10 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/emar")
-set(CMAKE_C_COMPILER_AR "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/emar")
-set(CMAKE_RANLIB "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/emranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/emranlib")
+set(CMAKE_AR "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emar")
+set(CMAKE_C_COMPILER_AR "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emar")
+set(CMAKE_RANLIB "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emranlib")
+set(CMAKE_C_COMPILER_RANLIB "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emranlib")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
@@ -75,7 +75,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/emsdk/upstream/emscripten/cache/sysroot/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

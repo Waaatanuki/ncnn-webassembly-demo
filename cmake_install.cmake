@@ -1,8 +1,8 @@
-# Install script for directory: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn
+# Install script for directory: /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/install")
+  set(CMAKE_INSTALL_PREFIX "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,16 +37,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/src/cmake_install.cmake")
-
-endif()
-
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/install_local_manifest.txt"
+  file(WRITE "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/ncnn/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
