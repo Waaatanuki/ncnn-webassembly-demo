@@ -40,15 +40,6 @@ jobs:
           cmake -DCMAKE_TOOLCHAIN_FILE=$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DWASM_FEATURE=simd-threads ..
           make -j4
 
-      - name: collect-deploy-files
-        run: |
-          mkdir deploy && cd deploy
-          cp ../build/*.data .
-          cp ../build/*.js .
-          cp ../build/*.wasm .
-          cp ../*.html .
-          cp ../*.js .
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
