@@ -116,67 +116,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named nanodet-simd-threads
-
-# Build rule for target.
-nanodet-simd-threads: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nanodet-simd-threads
-.PHONY : nanodet-simd-threads
-
-# fast build rule for target.
-nanodet-simd-threads/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/build
-.PHONY : nanodet-simd-threads/fast
-
-nanodet.o: nanodet.cpp.o
-.PHONY : nanodet.o
-
-# target to build an object file
-nanodet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/nanodet.cpp.o
-.PHONY : nanodet.cpp.o
-
-nanodet.i: nanodet.cpp.i
-.PHONY : nanodet.i
-
-# target to preprocess a source file
-nanodet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/nanodet.cpp.i
-.PHONY : nanodet.cpp.i
-
-nanodet.s: nanodet.cpp.s
-.PHONY : nanodet.s
-
-# target to generate assembly for a file
-nanodet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/nanodet.cpp.s
-.PHONY : nanodet.cpp.s
-
-nanodetncnn.o: nanodetncnn.cpp.o
-.PHONY : nanodetncnn.o
-
-# target to build an object file
-nanodetncnn.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/nanodetncnn.cpp.o
-.PHONY : nanodetncnn.cpp.o
-
-nanodetncnn.i: nanodetncnn.cpp.i
-.PHONY : nanodetncnn.i
-
-# target to preprocess a source file
-nanodetncnn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/nanodetncnn.cpp.i
-.PHONY : nanodetncnn.cpp.i
-
-nanodetncnn.s: nanodetncnn.cpp.s
-.PHONY : nanodetncnn.s
-
-# target to generate assembly for a file
-nanodetncnn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nanodet-simd-threads.dir/build.make CMakeFiles/nanodet-simd-threads.dir/nanodetncnn.cpp.s
-.PHONY : nanodetncnn.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,13 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... nanodet-simd-threads"
-	@echo "... nanodet.o"
-	@echo "... nanodet.i"
-	@echo "... nanodet.s"
-	@echo "... nanodetncnn.o"
-	@echo "... nanodetncnn.i"
-	@echo "... nanodetncnn.s"
 .PHONY : help
 
 
