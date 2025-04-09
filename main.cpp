@@ -29,15 +29,11 @@ extern "C" {
 
     // 示例推理函数
     float* inference(const float* input_data, int width, int height) {
-        ncnn::Mat in = ncnn::Mat::from_pixels(input_data, ncnn::Mat::PIXEL_RGB, width, height);
-        
+        double start_time = ncnn::get_current_time();
         ncnn::Extractor ex = net.create_extractor();
-        ex.input("input", in);
+        double elasped = ncnn::get_current_time() - start_time;
         
-        ncnn::Mat out;
-        ex.extract("output", out);
-        
-        return out.channel(0);
+        return elasped;
     }
 }
 
