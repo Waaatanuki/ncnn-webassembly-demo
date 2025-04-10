@@ -38,7 +38,7 @@ extern "C" {
      
         sprintf(input_data, "%s/%s", param_name, model_name);
 
-        return start_time;
+        return strlen(input_data);
     }
 }
 
