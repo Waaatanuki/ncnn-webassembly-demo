@@ -31,8 +31,14 @@ extern "C" {
     // 示例推理函数
     double inference(char* input_data, int width, int height) {
         double start_time = ncnn::get_current_time();
-        input_data = "hello";
+   
         
+        const char *model_name = "renderer.ncnn.bin";
+        const char *param_name = "renderer.ncnn.param";
+        char model_path[1024];
+        char param_path[1024];
+        sprintf(input_data, "%s", model_name);
+
         return start_time;
     }
 }
