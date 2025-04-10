@@ -36,7 +36,7 @@ extern "C" {
         const char *model_name = "renderer.ncnn.bin";
         const char *param_name = "renderer.ncnn.param";
      
-        sprintf(input_data, "%s/%s", param_name, model_name);
+        // sprintf(input_data, "%s/%s", param_name, model_name);
 
         return strlen(input_data);
     }
