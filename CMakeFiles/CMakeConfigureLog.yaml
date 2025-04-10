@@ -22,8 +22,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -34,21 +34,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_880b8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_880b8.dir/build.make CMakeFiles/cmTC_880b8.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn'
-        Building C object CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0508f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0508f.dir/build.make CMakeFiles/cmTC_0508f.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC'
+        Building C object CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn/OpenMPTryFlag.c -o CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_880b8.dir/build.make:82: CMakeFiles/cmTC_880b8.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-kNchzn'
-        gmake: *** [Makefile:134: cmTC_880b8/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC/OpenMPTryFlag.c -o CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_0508f.dir/build.make:82: CMakeFiles/cmTC_0508f.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-3gTdsC'
+        gmake: *** [Makefile:134: cmTC_0508f/fast] Error 2
         
       exitCode: 2
   -
@@ -60,8 +60,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -72,21 +72,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmplibiomp5"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1a853/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1a853.dir/build.make CMakeFiles/cmTC_1a853.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90'
-        Building C object CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0fe3e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0fe3e.dir/build.make CMakeFiles/cmTC_0fe3e.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj'
+        Building C object CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90/OpenMPTryFlag.c -o CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_1a853.dir/build.make:82: CMakeFiles/cmTC_1a853.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-c09v90'
-        gmake: *** [Makefile:134: cmTC_1a853/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj/OpenMPTryFlag.c -o CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_0fe3e.dir/build.make:82: CMakeFiles/cmTC_0fe3e.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-C9uMBj'
+        gmake: *** [Makefile:134: cmTC_0fe3e/fast] Error 2
         
       exitCode: 2
   -
@@ -98,8 +98,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -110,21 +110,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b99e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0b99e.dir/build.make CMakeFiles/cmTC_0b99e.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y'
-        Building C object CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp -MD -MT CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b1072/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b1072.dir/build.make CMakeFiles/cmTC_b1072.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8'
+        Building C object CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp -MD -MT CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y/OpenMPTryFlag.c -o CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_0b99e.dir/build.make:82: CMakeFiles/cmTC_0b99e.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-apqS4Y'
-        gmake: *** [Makefile:134: cmTC_0b99e/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8/OpenMPTryFlag.c -o CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_b1072.dir/build.make:82: CMakeFiles/cmTC_b1072.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-e2W2p8'
+        gmake: *** [Makefile:134: cmTC_b1072/fast] Error 2
         
       exitCode: 2
   -
@@ -136,8 +136,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -148,21 +148,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3f72/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a3f72.dir/build.make CMakeFiles/cmTC_a3f72.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc'
-        Building C object CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90771/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_90771.dir/build.make CMakeFiles/cmTC_90771.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr'
+        Building C object CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc/OpenMPTryFlag.c -o CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_a3f72.dir/build.make:82: CMakeFiles/cmTC_a3f72.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-mMocZc'
-        gmake: *** [Makefile:134: cmTC_a3f72/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr/OpenMPTryFlag.c -o CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_90771.dir/build.make:82: CMakeFiles/cmTC_90771.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jIWaSr'
+        gmake: *** [Makefile:134: cmTC_90771/fast] Error 2
         
       exitCode: 2
   -
@@ -174,8 +174,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -186,21 +186,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2d73/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f2d73.dir/build.make CMakeFiles/cmTC_f2d73.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm'
-        Building CXX object CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a69c5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a69c5.dir/build.make CMakeFiles/cmTC_a69c5.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM'
+        Building CXX object CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_f2d73.dir/build.make:82: CMakeFiles/cmTC_f2d73.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Zx07dm'
-        gmake: *** [Makefile:134: cmTC_f2d73/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_a69c5.dir/build.make:82: CMakeFiles/cmTC_a69c5.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-EeyUEM'
+        gmake: *** [Makefile:134: cmTC_a69c5/fast] Error 2
         
       exitCode: 2
   -
@@ -212,8 +212,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -224,21 +224,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5227/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_d5227.dir/build.make CMakeFiles/cmTC_d5227.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI'
-        Building CXX object CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1f9a4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1f9a4.dir/build.make CMakeFiles/cmTC_1f9a4.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg'
+        Building CXX object CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_d5227.dir/build.make:82: CMakeFiles/cmTC_d5227.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-WMqnwI'
-        gmake: *** [Makefile:134: cmTC_d5227/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_1f9a4.dir/build.make:82: CMakeFiles/cmTC_1f9a4.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-yEZTHg'
+        gmake: *** [Makefile:134: cmTC_1f9a4/fast] Error 2
         
       exitCode: 2
   -
@@ -250,8 +250,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -262,21 +262,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_99c53/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_99c53.dir/build.make CMakeFiles/cmTC_99c53.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA'
-        Building CXX object CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp -MD -MT CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_291a3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_291a3.dir/build.make CMakeFiles/cmTC_291a3.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV'
+        Building CXX object CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp -MD -MT CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_99c53.dir/build.make:82: CMakeFiles/cmTC_99c53.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-byOILA'
-        gmake: *** [Makefile:134: cmTC_99c53/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_291a3.dir/build.make:82: CMakeFiles/cmTC_291a3.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-xgznlV'
+        gmake: *** [Makefile:134: cmTC_291a3/fast] Error 2
         
       exitCode: 2
   -
@@ -288,8 +288,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -300,21 +300,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b543c/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b543c.dir/build.make CMakeFiles/cmTC_b543c.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC'
-        Building CXX object CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74342/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_74342.dir/build.make CMakeFiles/cmTC_74342.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j'
+        Building CXX object CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_b543c.dir/build.make:82: CMakeFiles/cmTC_b543c.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-BYXMyC'
-        gmake: *** [Makefile:134: cmTC_b543c/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_74342.dir/build.make:82: CMakeFiles/cmTC_74342.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-53jo6j'
+        gmake: *** [Makefile:134: cmTC_74342/fast] Error 2
         
       exitCode: 2
   -
@@ -329,8 +329,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Sxx2E7"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Sxx2E7"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-nsNehg"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-nsNehg"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -341,19 +341,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Sxx2E7'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-nsNehg'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a2047/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a2047.dir/build.make CMakeFiles/cmTC_a2047.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Sxx2E7'
-        Building C object CMakeFiles/cmTC_a2047.dir/src.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_a2047.dir/src.c.o -MF CMakeFiles/cmTC_a2047.dir/src.c.o.d -o CMakeFiles/cmTC_a2047.dir/src.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Sxx2E7/src.c
-        Linking C executable cmTC_a2047.js
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2047.dir/link.txt --verbose=1
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9fc4b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9fc4b.dir/build.make CMakeFiles/cmTC_9fc4b.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-nsNehg'
+        Building C object CMakeFiles/cmTC_9fc4b.dir/src.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_9fc4b.dir/src.c.o -MF CMakeFiles/cmTC_9fc4b.dir/src.c.o.d -o CMakeFiles/cmTC_9fc4b.dir/src.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-nsNehg/src.c
+        Linking C executable cmTC_9fc4b.js
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fc4b.dir/link.txt --verbose=1
         cache:INFO: generating system asset: symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt... (this will be cached in "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/symbol_lists/867f7a7b446919cac082740852a20ab401bd81db.txt" for subsequent builds)
         cache:INFO:  - ok
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_a2047.dir/objects1.rsp -o cmTC_a2047.js
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-Sxx2E7'
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_9fc4b.dir/objects1.rsp -o cmTC_9fc4b.js
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-nsNehg'
         
       exitCode: 0
 ...
@@ -369,8 +369,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -381,21 +381,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51f6d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_51f6d.dir/build.make CMakeFiles/cmTC_51f6d.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG'
-        Building C object CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79eb8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_79eb8.dir/build.make CMakeFiles/cmTC_79eb8.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa'
+        Building C object CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG/OpenMPTryFlag.c -o CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_51f6d.dir/build.make:82: CMakeFiles/cmTC_51f6d.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-8i9SLG'
-        gmake: *** [Makefile:134: cmTC_51f6d/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa/OpenMPTryFlag.c -o CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_79eb8.dir/build.make:82: CMakeFiles/cmTC_79eb8.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-wMDiUa'
+        gmake: *** [Makefile:134: cmTC_79eb8/fast] Error 2
         
       exitCode: 2
   -
@@ -407,8 +407,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -419,21 +419,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmplibiomp5"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc956/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dc956.dir/build.make CMakeFiles/cmTC_dc956.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW'
-        Building C object CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_54386/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_54386.dir/build.make CMakeFiles/cmTC_54386.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1'
+        Building C object CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW/OpenMPTryFlag.c -o CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_dc956.dir/build.make:82: CMakeFiles/cmTC_dc956.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-DUvVjW'
-        gmake: *** [Makefile:134: cmTC_dc956/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1/OpenMPTryFlag.c -o CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_54386.dir/build.make:82: CMakeFiles/cmTC_54386.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-dDp7x1'
+        gmake: *** [Makefile:134: cmTC_54386/fast] Error 2
         
       exitCode: 2
   -
@@ -445,8 +445,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -457,21 +457,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_18704/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_18704.dir/build.make CMakeFiles/cmTC_18704.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4'
-        Building C object CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp -MD -MT CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7c0d5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7c0d5.dir/build.make CMakeFiles/cmTC_7c0d5.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT'
+        Building C object CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -fopenmp -MD -MT CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4/OpenMPTryFlag.c -o CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_18704.dir/build.make:82: CMakeFiles/cmTC_18704.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-q9BJL4'
-        gmake: *** [Makefile:134: cmTC_18704/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT/OpenMPTryFlag.c -o CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_7c0d5.dir/build.make:82: CMakeFiles/cmTC_7c0d5.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-4OPYRT'
+        gmake: *** [Makefile:134: cmTC_7c0d5/fast] Error 2
         
       exitCode: 2
   -
@@ -483,8 +483,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_C_FLAGS: ""
@@ -495,21 +495,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e7fe/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2e7fe.dir/build.make CMakeFiles/cmTC_2e7fe.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV'
-        Building C object CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV/OpenMPTryFlag.c
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_70ae7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_70ae7.dir/build.make CMakeFiles/cmTC_70ae7.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y'
+        Building C object CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/emcc   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y/OpenMPTryFlag.c
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV/OpenMPTryFlag.c -o CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_2e7fe.dir/build.make:82: CMakeFiles/cmTC_2e7fe.dir/OpenMPTryFlag.c.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-fJf1VV'
-        gmake: *** [Makefile:134: cmTC_2e7fe/fast] Error 2
+        emcc: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -Werror=implicit-function-declaration -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y/OpenMPTryFlag.c -o CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_70ae7.dir/build.make:82: CMakeFiles/cmTC_70ae7.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-H2I43y'
+        gmake: *** [Makefile:134: cmTC_70ae7/fast] Error 2
         
       exitCode: 2
   -
@@ -521,8 +521,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -533,21 +533,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6bbd8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_6bbd8.dir/build.make CMakeFiles/cmTC_6bbd8.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td'
-        Building CXX object CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7740/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a7740.dir/build.make CMakeFiles/cmTC_a7740.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW'
+        Building CXX object CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libomp -MD -MT CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_6bbd8.dir/build.make:82: CMakeFiles/cmTC_6bbd8.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-0XM4Td'
-        gmake: *** [Makefile:134: cmTC_6bbd8/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libomp -MD -MT CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_a7740.dir/build.make:82: CMakeFiles/cmTC_a7740.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-cn5rLW'
+        gmake: *** [Makefile:134: cmTC_a7740/fast] Error 2
         
       exitCode: 2
   -
@@ -559,8 +559,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -571,21 +571,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b8b9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8b8b9.dir/build.make CMakeFiles/cmTC_8b8b9.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8'
-        Building CXX object CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_df040/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_df040.dir/build.make CMakeFiles/cmTC_df040.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX'
+        Building CXX object CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_8b8b9.dir/build.make:82: CMakeFiles/cmTC_8b8b9.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-hOjQP8'
-        gmake: *** [Makefile:134: cmTC_8b8b9/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp=libiomp5 -MD -MT CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_df040.dir/build.make:82: CMakeFiles/cmTC_df040.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-qO4KPX'
+        gmake: *** [Makefile:134: cmTC_df040/fast] Error 2
         
       exitCode: 2
   -
@@ -597,8 +597,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -609,21 +609,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bdfa6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_bdfa6.dir/build.make CMakeFiles/cmTC_bdfa6.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6'
-        Building CXX object CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp -MD -MT CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7314f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7314f.dir/build.make CMakeFiles/cmTC_7314f.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT'
+        Building CXX object CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -fopenmp -MD -MT CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_bdfa6.dir/build.make:82: CMakeFiles/cmTC_bdfa6.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-ZbsnH6'
-        gmake: *** [Makefile:134: cmTC_bdfa6/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -fopenmp -MD -MT CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_7314f.dir/build.make:82: CMakeFiles/cmTC_7314f.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-AaE7xT'
+        gmake: *** [Makefile:134: cmTC_7314f/fast] Error 2
         
       exitCode: 2
   -
@@ -635,8 +635,8 @@ events:
       - "CMakeLists.txt:12 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg"
-      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg"
+      source: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U"
+      binary: "/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-16"
       CMAKE_CXX_FLAGS: ""
@@ -647,21 +647,21 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg'
+        Change Dir: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_95604/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_95604.dir/build.make CMakeFiles/cmTC_95604.dir/build
-        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg'
-        Building CXX object CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg/OpenMPTryFlag.cpp
-        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a61d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a61d.dir/build.make CMakeFiles/cmTC_6a61d.dir/build
+        gmake[1]: Entering directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U'
+        Building CXX object CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/em++   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U/OpenMPTryFlag.cpp
+        /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
         #include <omp.h>
                  ^~~~~~~
         1 error generated.
-        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
-        gmake[1]: *** [CMakeFiles/cmTC_95604.dir/build.make:82: CMakeFiles/cmTC_95604.dir/OpenMPTryFlag.cpp.o] Error 1
-        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-jLH0Kg'
-        gmake: *** [Makefile:134: cmTC_95604/fast] Error 2
+        em++: error: '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/bin/clang++ -target wasm32-unknown-emscripten -fignore-exceptions -fvisibility=default -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -DEMSCRIPTEN -I/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot/include/SDL --sysroot=/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o.d -c /home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U/OpenMPTryFlag.cpp -o CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o' failed (returned 1)
+        gmake[1]: *** [CMakeFiles/cmTC_6a61d.dir/build.make:82: CMakeFiles/cmTC_6a61d.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/runner/work/ncnn-webassembly-demo/ncnn-webassembly-demo/build/CMakeFiles/CMakeScratch/TryCompile-T9Vk1U'
+        gmake: *** [Makefile:134: cmTC_6a61d/fast] Error 2
         
       exitCode: 2
 ...
